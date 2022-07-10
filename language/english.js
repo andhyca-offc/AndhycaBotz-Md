@@ -1600,7 +1600,6 @@ exports.info = (prefix) =>{
 │• ${prefix}runtime
 │• ${prefix}botstatus
 │• ${prefix}donate
-│• ${prefix}artisymbol
 ╰❒
 `}
 
