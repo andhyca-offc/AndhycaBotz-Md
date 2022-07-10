@@ -583,7 +583,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`(⊃｡•́‿•̀｡)⊃\nHi Sis ${pushname} 👋 Good ${salam} , 
-I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♡^･ᴗ･^♡︎ Thank You ♡^･ᴗ･^♡︎
+I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♥︎^･ᴗ･^♡︎ Thank You ♡^･ᴗ･^♡♥︎
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
