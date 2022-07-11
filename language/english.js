@@ -658,6 +658,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 𝔸𝕟𝕠𝕟𝕪𝕞𝕠𝕦𝕤 ℂ𝕙𝕒𝕥 」
 │• ${prefix}anonymous 
 │• ${prefix}start
+│• ${prefix}leave
 │• ${prefix}skip [daerah]
 │• ${prefix}stop [surah|ayat]
 ╰❒
@@ -687,7 +688,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}setppgrup [reply image]
 │• ${prefix}antilink [on/off]
 │• ${prefix}revoke
-│• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
 │• ${prefix}linkgc
@@ -1664,7 +1664,6 @@ exports.group = (prefix) =>{
 │• ${prefix}setppgrup [reply image]
 │• ${prefix}antilink [on/off]
 │• ${prefix}revoke
-│• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
 │• ${prefix}linkgc
@@ -2459,6 +2458,7 @@ exports.anonchat = (prefix) =>{
 	return`╭─❒ 「 𝔸𝕟𝕠𝕟𝕪𝕞𝕠𝕦𝕤 ℂ𝕙𝕒𝕥 」
 │• ${prefix}anonymous 
 │• ${prefix}start
+│• ${prefix}leave
 │• ${prefix}skip [daerah]
 │• ${prefix}stop [surah|ayat]
 ╰❒
