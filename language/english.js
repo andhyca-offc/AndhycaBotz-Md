@@ -543,7 +543,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `「🙅‍♂️」 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗖𝗮𝗻 𝗢𝗻𝗹𝘆 𝗕𝗲 𝗨𝘀𝗲𝗱 𝗕𝘆 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗺𝗶𝗻𝘀!`
+    return `「🙅‍♀️」 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗖𝗮𝗻 𝗢𝗻𝗹𝘆 𝗕𝗲 𝗨𝘀𝗲𝗱 𝗕𝘆 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗺𝗶𝗻𝘀!`
 }
 
 exports.nhFalse = () => {
@@ -589,7 +589,7 @@ I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat Wi
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Good ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu AndhycaBotz-Md :*
+*📚 List-Menu 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ :*
 
 𝗣𝗲𝘁𝘂𝗻𝗷𝘂𝗸
 <Ⓞ︎> Berarti Features Tidak Diaktifkan Oleh Owner
@@ -635,6 +635,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}public [only bot]
 │• ${prefix}del [reply pesan bot]
 │• ${prefix}setppbot [reply image]
+│• ${prefix}out
 ╰❒
 
 
@@ -689,7 +690,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
-│• ${prefix}leave
 │• ${prefix}linkgc
 │• ${prefix}take packname|author
 │• ${prefix}group [open/close]
@@ -1634,6 +1634,7 @@ return`╭─❒ 「 𝕆𝕨𝕟𝕖𝕣 𝕄𝕖𝕟𝕦 」
 │• ${prefix}public [only bot]
 │• ${prefix}del [pesan bot]
 │• ${prefix}setppbot [reply image]
+│• ${prefix}out
 ╰❒
 `}
 
@@ -1666,7 +1667,6 @@ exports.group = (prefix) =>{
 │• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
-│• ${prefix}leave
 │• ${prefix}linkgc
 │• ${prefix}take packname|author
 │• ${prefix}group [open/close]
