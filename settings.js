@@ -34,7 +34,7 @@ global.timezone = 'Asia/Jakarta' //  timezone wib
 global.owner = ["6285872761910","6285794408499","62895330584590"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = "6285872761910","6285794408498" // nomor wa kalian
 global.ownernomerr = "+6285872761910","+6285794408499" //nmr wa kalian
-global.thumbnail = "./image/lolu.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
+global.thumbnail = "./image/1657599146682logo.png" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donati.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 
@@ -58,7 +58,7 @@ global.mess = {
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
 	bot: 'Fitur Khusus Pengguna Nomor Bot',
     errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-    wait: '⏳ Sedang Di Proses',
+    wait: '「⏰」 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗔 𝗠𝗼𝗺𝗲𝗻𝘁',
 	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
